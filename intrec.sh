@@ -481,7 +481,7 @@ function TadPole()
 		sleep 1
 		git clone https://github.com/Ekultek/tadpole.git
 		notification "Installing dependencies."
-		sudo -H pip install beautifulsoup4 requests
+		sudo -H pip install beautifulsoup4 requests lxml
 		notification "TadPole was successfully installed."
 		
 	fi
